@@ -1,5 +1,4 @@
 f = open("C:/Users/user/PycharmProjects/doitpython/venv/src/test.txt", 'r')
-lines = f.readlines()
-for line in lines:
-    print(lines)
+data = f.read()
+print(data)
 f.close()
